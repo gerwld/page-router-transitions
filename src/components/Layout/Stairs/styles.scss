@@ -1,0 +1,28 @@
+.stairs {
+    .transitions-container {
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        display: flex;
+
+        div {
+            height: 100%;
+            width: 100%;
+            background-color: #000;
+            position: relative;
+        }
+    }
+
+    .background {
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        background-color: #000;
+    }
+}

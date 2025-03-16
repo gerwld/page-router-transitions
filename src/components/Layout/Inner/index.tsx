@@ -53,7 +53,7 @@ export default function Inner({ children }: Props): JSX.Element {
         exit: {
             y: -100,
             scale: 0.9,
-            opacity: 0.5,
+            opacity: 0,
             transition: {
                 duration: 1.2,
                 ease: [0.33, 1, 0.68, 1]

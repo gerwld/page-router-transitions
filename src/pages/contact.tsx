@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Inner from "@/components/Layout/Inner";
+import Stairs from "@/components/Layout/Stairs";
 
 export default function Contact() {
   return (
@@ -7,13 +7,13 @@ export default function Contact() {
     <Head>
       <title>page-router</title>
     </Head>
-    <Inner>
+    <Stairs>
       <h1>Contact</h1>
       <div className="body">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eveniet magni modi doloremque odit beatae et, commodi recusandae libero neque.</p>
         <p>doloremque odit beatae et, commodi recusandae libero neque.</p>
       </div>
-    </Inner>
+    </Stairs>
     </>
   );
 }
